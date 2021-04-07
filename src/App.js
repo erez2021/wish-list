@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    <div className="app">
+      <section className="content">
+        <h1>Wishlist:</h1>
+      </section>
     </div>
   );
 }

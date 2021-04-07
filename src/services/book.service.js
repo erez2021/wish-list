@@ -3,10 +3,10 @@ import axios from 'axios'
 const BOOKS_KEY = 'books'
 
 
-export const bitcoinService = {
+export default {
     getBooks,
- 
 }
+
 getBooks()
 function getBooks() {
     var books = JSON.parse(localStorage.getItem(BOOKS_KEY))
