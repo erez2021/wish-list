@@ -3,7 +3,7 @@
     display: flex;
     background: $clr-primary;
     padding:20vmin;
-    &.content{
+    .content{
       display: flex;
       flex-flow: column;
       flex-grow: 1;

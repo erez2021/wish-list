@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="app">
       <section className="content">
-        <h1>Wishlist:</h1>
         <WishlistApp />
       </section>
     </div>

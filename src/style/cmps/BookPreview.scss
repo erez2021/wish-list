@@ -1,0 +1,29 @@
+.book-preview{
+    cursor: pointer;
+    display: flex;
+    padding:15px;
+    font-size: 1em;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    transition: all .15s linear;
+
+    border-left:5px solid $clr-secondary;
+    box-shadow: $medium-flat-shadow;
+
+    background: $clr-gray-light;
+    color:$clr-gray-dark;
+    &:hover{
+        background: $clr-white;
+        color:$clr-gray-light;
+    }
+    &:active{
+        background:$clr-black;
+    }
+    &:focus{
+        border-left:15px solid lighten($clr-primary,10);
+    }
+
+}

@@ -5,8 +5,9 @@ $clr-gray-light:hsl(60, 1%, 68%);
 $clr-gray-dark:hsl(180, 4%, 20%);
 $clr-link:#89E5E0;
 $clr-primary:hsl(221, 37%, 41%);
+$clr-secondary: #ffb923;
 :root{
-    --clr-primary: #ffed49;
+    --clr-primary: hsl(221, 37%, 41%);
 }
 
 

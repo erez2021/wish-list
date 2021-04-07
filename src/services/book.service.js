@@ -22,6 +22,7 @@ function getBooks() {
         //     .catch(err => {
         //         console.log('Service got Error:cannot get books', err);
         //     })
+        localStorage.setItem(BOOKS_KEY, JSON.stringify(gBooks))
         return Promise.resolve(gBooks)
-    } return books
+    } return Promise.resolve(books)
 }

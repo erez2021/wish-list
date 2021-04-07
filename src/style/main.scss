@@ -15,4 +15,10 @@
 @import 'basics/forms';
 
 //App
-@import 'App.scss'
+@import 'App.scss';
+
+//Pages
+@import './pages/WishListApp.scss';
+
+//Cmps
+@import './cmps/BookPreview.scss';

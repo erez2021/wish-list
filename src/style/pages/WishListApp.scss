@@ -1,0 +1,17 @@
+.wishlist-app{
+    font-size: rem(24px);
+    h1 {
+        margin-block-end: 25px;
+        font-size: 1.5em;
+        color:lighten($clr-primary,30);
+        font-weight: bold;
+        line-height: 1;
+    }
+    .list-container{
+        &>*:not(:last-child){
+            outline: none;
+            margin-block-end: 8px;
+        }
+    }
+    
+}
