@@ -1,0 +1,24 @@
+// Colors
+$clr-black:hsl(216, 22%, 9%);
+$clr-white:hsl(167, 31%, 94%);
+$clr-gray-light:hsl(60, 1%, 68%);
+$clr-gray-dark:hsl(180, 4%, 20%);
+$clr-link:#89E5E0;
+$clr-primary:hsl(54, 100%, 55%);
+:root{
+    --clr-primary: #ffed49;
+}
+
+
+$clr-positive:#71d165;
+$clr-negative: #EB7386;
+
+$subtle-flat-shadow:0 2px 0 0 #0000002e;
+$medium-flat-shadow:0 4px 0 0 #0000002e;
+
+// Breakpoints
+$mobile-breakpoint: 460px;
+$narrow-breakpoint: 720px;
+$normal-breakpoint: 960px;
+
+$normal-page-width:85%;
