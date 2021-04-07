@@ -16,7 +16,6 @@ function getBooks() {
                 console.log('Service Got Res:', res.data);
                 books = res.data;
                 localStorage.setItem(BOOKS_KEY, JSON.stringify(books))
-
             })
             .catch(err => {
                 console.log('Service got Error:cannot get books', err);

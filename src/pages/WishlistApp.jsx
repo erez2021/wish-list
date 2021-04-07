@@ -13,9 +13,8 @@ export default class WishlistApp extends Component {
   }
 
   loadBooks = () => {
-    const books = bookService.getBooks()
-    console.log(books)
-    this.setState({ books })
+    bookService.getBooks()
+      .then(books => this.setState({ books }))
   }
 
   render() {
