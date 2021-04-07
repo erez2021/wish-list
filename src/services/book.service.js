@@ -5,7 +5,6 @@ const gBooks = require('../data/book.json');
 
 
 
-<<<<<<< Updated upstream
 export default {
     getBooks,
 }
@@ -24,14 +23,6 @@ function getBooks() {
                 console.log('Service got Error:cannot get books', err);
             })
     } return books
-=======
-export const bitcoinService = {
-    getBooks
- 
-}
-function getBooks(){
-    return gBooks
->>>>>>> Stashed changes
 }
 
 // function getBooks() {
