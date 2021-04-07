@@ -1,6 +1,8 @@
 import { Component } from 'react'
+
 import bookService from '../services/book.service'
 
+import BookList from '../cmps/BookList.jsx'
 
 export default class WishlistApp extends Component {
 
@@ -18,11 +20,11 @@ export default class WishlistApp extends Component {
   }
 
   render() {
-
+    const { books } = this.state
     return (
-      <div className="wishlist-app">
-
-      </div>
+      books && <section className="wishlist-app">
+        <BookList>{books}</BookList>
+      </section>
     )
   }
 }
